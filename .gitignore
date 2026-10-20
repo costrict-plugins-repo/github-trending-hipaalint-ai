@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+.gradle/
+jetbrains-plugin/.gradle/
+jetbrains-plugin/build/
+jetbrains-plugin/bin/
+vscode-extension/out/
+*.vsix
+*.zip
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Package
+*.tgz
+
+# Internal planning docs (local-only)
+prd.md
+PRODUCT_ROADMAP.md
+DESIGN_AND_IMPLEMENTATION_PLAN.md
+CLAUDE.md
+BACKLOG.md
+docs/TechDebt.md
+docs/ProductRoadmap.md
+docs/CriticalAnalysisPlan.md
+
+# Claude Code local files
+.claude/
+
+# Windows artifacts
+nul
